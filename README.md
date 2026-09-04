@@ -145,7 +145,19 @@ Age-associated transcriptional effects for genes related to CYP-mediated metabol
 
 **Figure 4. Hallmark gene-set enrichment analysis.**  
 Genome-wide GSEA identified significant enrichment toward older female donors for late estrogen response, oxidative phosphorylation, coagulation, and KRAS signaling DN. Pathway-level results support coordinated age-associated transcriptional remodeling beyond individual differentially expressed genes.
+### Additional dimensionality-reduction views
 
+#### Harmony UMAP by source study
+
+![Harmony UMAP by source study](results/figures/Figure_06_Harmony_UMAP_by_study.png)
+
+Harmony was applied to `DataSource` only to reduce source-study structure for visualization and neighborhood analysis. Age group was not included as a correction variable, and Harmony coordinates were not used for pseudobulk differential expression.
+
+#### Harmony UMAP by age group and study
+
+![Harmony UMAP by age and study](results/figures/Figure_07_Harmony_UMAP_age_by_study.png)
+
+This view illustrates the distribution of younger and older female VCM nuclei across the Harmony-corrected embedding while retaining study context. It is used as a visualization of cell-level structure rather than as evidence for donor-level age effects.
 ## Repository structure
 
 ```text
