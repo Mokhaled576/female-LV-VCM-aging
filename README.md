@@ -110,6 +110,41 @@ Positive log2 fold-change corresponds to higher expression in the older group.
 - Broad arachidonic-acid/eicosanoid pathway enrichment was suggestive in places but did not support a blanket claim of global pathway activation.
 
 These results support **age-associated transcriptional remodeling** in female LV VCMs. They do not establish a causal effect of menopause or estrogen loss.
+## Key figures
+
+### Donor-level pseudobulk structure
+
+![Donor-level pseudobulk MDS](results/figures/Figure_5_pseudobulk_MDS.png)
+
+**Figure 1. Donor-level pseudobulk MDS.**  
+Multidimensional scaling of donor-level pseudobulk ventricular cardiomyocyte profiles. This visualization is used to assess major sources of between-donor transcriptional variation, including age group and source-study structure. Differential expression was therefore performed at the donor level with source study included as a covariate in the primary model.
+
+---
+
+### Robustness of age-associated transcriptional effects
+
+![Primary versus sensitivity logFC concordance](results/figures/Figure_7_primary_vs_sensitivity_logFC.png)
+
+**Figure 2. Concordance of age-associated effect sizes between the primary and sensitivity analyses.**  
+Log2 fold-change estimates from the primary analysis (24 donors; study-adjusted) are compared with estimates from the overlapping-study sensitivity analysis (15 donors from Koenig, Litvinukova, and Read). Among primary-significant genes that remained testable in the sensitivity analysis, effect directions were highly concordant. This analysis evaluates effect-size robustness rather than independent FDR replication.
+
+---
+
+### CYP, estrogen-associated, and eicosanoid-related transcriptional signals
+
+![Core CYP estrogen eicosanoid genes](results/figures/Figure_8_core_CYP_estrogen_eicosanoid_genes.png)
+
+**Figure 3. Selected mechanistically relevant genes.**  
+Age-associated transcriptional effects for genes related to CYP-mediated metabolism, estrogen-associated signaling, and arachidonic acid/eicosanoid biology. Positive log2 fold changes indicate higher expression in older (≥55 years; postmenopausal-age proxy) female donors. CYP4F22 emerged as the clearest individual CYP-associated signal, whereas the results do not support a general conclusion of global CYP/eicosanoid pathway activation.
+
+---
+
+### Genome-wide pathway enrichment
+
+![Final Hallmark GSEA](results/figures/Figure_11_Hallmark_GSEA_FINAL.png)
+
+**Figure 4. Hallmark gene-set enrichment analysis.**  
+Genome-wide GSEA identified significant enrichment toward older female donors for late estrogen response, oxidative phosphorylation, coagulation, and KRAS signaling DN. Pathway-level results support coordinated age-associated transcriptional remodeling beyond individual differentially expressed genes.
 
 ## Repository structure
 
