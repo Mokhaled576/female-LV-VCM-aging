@@ -40,5 +40,4 @@ __pycache__/
 
 # Keep result directories available while allowing users to decide
 # which small final tables/figures should be committed.
-results/figures/*.png
-results/figures/*.pdf
+
