@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the source study and this repository."
+title: "Age-associated transcriptional programs in female human left-ventricular cardiomyocytes"
+type: software
+authors:
+  - family-names: "Abd El-aziz"
+    given-names: "Mostafa"
+version: 1.0.0
+date-released: 2026-09-04
+preferred-citation:
+  type: article
+  title: "Single-cell analysis of chromatin and expression reveals age- and sex-associated alterations in the human heart"
+  authors:
+    - family-names: "Read"
+      given-names: "David F."
+  journal: "Communications Biology"
+  year: 2024
+  volume: 7
+  doi: "10.1038/s42003-024-06582-y"
