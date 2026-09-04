@@ -208,4 +208,6 @@ If you use this repository, please cite the source study and this analysis repos
 
 ## License
 
-No software license has been selected yet. Add an explicit license before public release if you want others to have permission to reuse or modify the code.
+The analysis code in this repository is released under the [MIT License](LICENSE).
+
+The original human-heart snRNA-seq data remain subject to the terms, licenses, and usage conditions of the source study and its associated repositories.
