@@ -329,33 +329,6 @@ qc_by_donor <- as.data.frame(
     # ------------------------------------------------------------
     # STEP 20: Add age-group labels to the nucleus metadata
     # ------------------------------------------------------------
-    # The deposited cell metadata contains continuous age but
-    # does not contain our custom age_group variable.
-    #
-    # We recreate exactly the same primary groups:
-    #
-    # Younger: 20-45 years
-    # Older:   >=55 years
-    #
-    # There should be no 46-54 year nuclei because those donors
-    # were excluded when the primary cohort was constructed.
-    
-    colData(sce_vcm)$age_group <- dplyr::case_when(
-      
-      colData(sce_vcm)$Age >= 20 &
-        colData(sce_vcm)$Age <= 45 ~ "Younger_20_45",
-      
-      colData(sce_vcm)$Age >= 55 ~ "Older_55plus",
-      
-      TRUE ~ NA_character_)
-    
-    
-    # Confirm that every nucleus has an age-group assignment.
-    
-    table(
-      colData(sce_vcm)$age_group,
-      useNA = "ifany"
-      )
     
     median_counts = median(total_counts),
     median_detected_genes = median(detected_genes),
