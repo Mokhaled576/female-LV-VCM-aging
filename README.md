@@ -145,8 +145,11 @@ These results support **age-associated transcriptional remodeling** in female LV
 
 ### 1. Clone the repository
 
+
+```bash
 git clone https://github.com/Mokhaled576/female-LV-VCM-aging.git
 cd female-LV-VCM-aging
+```
 
 ### 2. Install packages
 
